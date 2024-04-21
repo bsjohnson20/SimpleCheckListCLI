@@ -20,6 +20,12 @@ Run the main.py
 ### Demo
 [video](https://www.terminalizer.com/view/b0132b995917)
 
+
+![img.png](demo_pics/img.png)
+
+![img.png](demo_pics/2024-04-21_17-09.png)
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
