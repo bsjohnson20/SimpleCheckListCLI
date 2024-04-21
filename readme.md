@@ -17,6 +17,8 @@ git clone https://github.com/bsjohnson20/SimpleCheckListCLI
 ## Usage
 Run the main.py
 
+### Demo
+[video](https://www.terminalizer.com/view/b0132b995917)
 
 ## Contributing
 
