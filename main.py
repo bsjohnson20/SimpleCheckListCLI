@@ -3,7 +3,7 @@ import io
 import os
 import subprocess
 import sys
-
+from os.path import exists
 import inquirer
 from inquirer import errors
 
@@ -51,12 +51,15 @@ class Main:
                 input()
 
     def write(self):
-        with open(self.file, "w") as f:
+        with open(self.file, "w+") as f:
             x = csv.writer(f)
             x.writerows(self.checklist)
         # print("Written successfully")
 
     def update(self):
+        # check if test.csv is present
+        if not exists(self.file):
+            open('test.csv',"w+").close()
         self.read()
 
     def complete_task(self):
